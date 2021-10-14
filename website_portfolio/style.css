@@ -1,0 +1,143 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img
+{
+	height:70px;
+	padding: auto;
+
+}
+
+.navbar-nav li
+{
+	padding: 0 20px;
+
+}
+.navbar-nav li a 
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #1aa3ff!important;
+}
+
+.navbar 
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link
+{
+	color:#555!important;
+	font-weight: 600;
+	font-size: 18px;
+}
+/*------ABOUT US---*/
+.about-us
+{
+	max-width:1000px;
+	margin: 0 auto;
+
+}
+
+#about
+{
+	padding-top:40px ;
+	padding-bottom:40px;
+	color: #333333;
+}
+.about_title
+{
+	text-align: center;
+}
+.about_body
+{
+	padding-top: 10px;
+    padding-bottom: auto;
+
+}
+/*------services-------*/
+#services
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(images/services.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+#services
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+.service_title
+{
+	text-align: center;
+	color: #e6e6e6;
+	margin-bottom: 40px;
+}
+.services_r 
+{
+	margin-top: auto;
+     
+}
+
+.icon 
+{   
+	font-size: 50px;
+	color: #ccffff;
+	align: center;
+}
+#services h4
+{
+	color: #ccffff;
+}
+
+.services_r .col:hover {
+background: rgba(0, 0, 0, 0.2);
+transition: 0.7s;
+} 
+/*--------contact----*/
+
+#contacts
+{
+	padding-top: 60px;
+
+}
+.cont_text{
+	text-align: center;
+	color: #595959;
+}
+
+.contact_info
+{
+	font-size: 22px ;
+	line-height: 50px;
+	max-width: 1000px;
+	padding-left: 50px;
+    color: #1a1a1a;
+    font-weight: 900px;
+
+
+}
+.contact_info i{
+	margin-right: 20px;
+	font-size: 22px;
+	
+
+
+}
